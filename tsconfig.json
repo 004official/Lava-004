@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "esnext",
-    "outDir": "../LavaOne/dir",
+    "outDir": "./dir",
     "rootDir": "./src/",
     "lib": ["es6", "ESNext"],
     "incremental": true,
