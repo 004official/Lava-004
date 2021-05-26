@@ -1,0 +1,9 @@
+# NPM trash
+package-lock.json
+node_modules/
+.idea/
+
+# Ignore these too
+dist/
+tsconfig.tsbuildinfo
+typings/
