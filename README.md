@@ -44,6 +44,8 @@ client.on("ready", async () => {
 
   client.music.on("nodeError", console.error);
 });
+
+client.login("Token");
 ```
 
 **วิธีใช้การค้นหาเพลงจาก youtube**
