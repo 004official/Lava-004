@@ -1,5 +1,4 @@
-# LavaOne
-<a href="https://discord.gg/wMQQWAH" target="_blank" rel="nofollow">![Untitled (1)](https://user-images.githubusercontent.com/57593203/119633754-3fa49d00-be3c-11eb-9ad1-1b2dd6b866c0.png)
+<a href="https://discord.gg/wMQQWAH" target="_blank" rel="nofollow">![Untitled (2)](https://user-images.githubusercontent.com/57593203/119634078-90b49100-be3c-11eb-810b-b36356b52cdd.png)
 
 
 </a>
