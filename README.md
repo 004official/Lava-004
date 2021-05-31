@@ -14,6 +14,7 @@ npm install lavaone -s
 ```
 
 # How to use the module
+> Documentation: <https://docs.lavaone.no-one.xyz//> 
 **วิธีใช้การโมดูล LavaOne**
 
 ```js 
