@@ -407,7 +407,7 @@ export class Player {
 
 	/**
 	 * ตั้งค่าระดับเสียงของผู้เล่น หรือ รีเซ็ตเป็น 100
-	 * @param {Number} [volume=100] - ไดรฟ์ข้อมูลใหม่
+	 * @param {Number} [ volume = 100 ] - ไดรฟ์ข้อมูลใหม่
 	 */
 	public setVolume(volume: number = 100): void {
 		if (isNaN(volume))
