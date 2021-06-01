@@ -55,11 +55,12 @@ client.login("Token");
 
 ```js
 client.on("message", async (message) => {
+  console.log(message.content);
   let prefix = "!";
   var slice = message.content.startsWith(prefix) ? prefix.length : 0;
   const args = message.content.slice(slice).split(/\s+/);
-
-  if (message.content == prefix + "play") {
+  var command = args.shift().toLowerCase();
+  if (command == "play") {
     let voiceChannel = message.member.voice.channel;
     if (!voiceChannel) return message.channel.send("คุณไม่ได้อยู่ในห้องคุย");
 
@@ -87,6 +88,24 @@ client.on("message", async (message) => {
 
     player.queue.add(res[0]);
     if (!player.playing) await player.play();
+  }
+  if (command == "skip") {
+    let voiceChannel = message.member.voice.channel;
+    if (!voiceChannel) return message.channel.send("คุณไม่ได้อยู่ในห้องคุย");
+
+    let player = await client.music.spawnPlayer(
+      {
+        guild: message.guild,
+        voiceChannel, // ห้องเสียงที่ต้องการเล่นเพลง
+        textChannel: message.channel, // ห้องข้อความ
+        volume: 100, // ระดับเสียงเพลง
+        deafen: true, // ปิดหูฟัง
+      },
+      {
+        skipOnError: true,
+      }
+    );
+    await player.play();
   }
 });
 ```
