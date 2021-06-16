@@ -1,4 +1,4 @@
-<a href="https://discord.gg/wMQQWAH" target="_blank" rel="nofollow">![Untitled (2)](https://user-images.githubusercontent.com/57593203/119634078-90b49100-be3c-11eb-810b-b36356b52cdd.png)
+<a href="https://discord.gg/004" target="_blank" rel="nofollow">![Untitled (2)](https://cdn.discordapp.com/attachments/811573370104709152/854832063059460096/New_Project_1.png)
 </a>
 <hr>
 <a href="https://discord.gg/004" target="_blank" rel="nofollow">
