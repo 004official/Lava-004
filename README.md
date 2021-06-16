@@ -2,25 +2,25 @@
 </a>
 <hr>
 <a href="https://discord.gg/wMQQWAH" target="_blank" rel="nofollow">
- <img src="https://discordapp.com/api/guilds/763754086297632778/widget.png?style=banner3" alt="Discord Banner"/>
+ <img src="https://discordapp.com/api/guilds/804391686054215751/widget.png?style=banner3" alt="Discord Banner"/>
 </a>
 <hr>
 
 # Installation
-**วิธีการติดตั้งโมดูล LavaOne (NPM)**
+**วิธีการติดตั้งโมดูล Lava-004 (NPM)**
 
 ```shell script
-npm install lavaone -s
+npm install lava-004 -s
 ```
 
 # How to use the module
 > Documentation: <https://docs.lavaone.no-one.xyz/> 
 <hr>
 
-**วิธีใช้การโมดูล LavaOne**
+**วิธีใช้การโมดูล Lava-004**
 
 ```js 
-const lavaone = require("lavaone");
+const lava-004 = require("lava-004");
 const discord = require("discord.js");
 
 let client = new discord.Client();
@@ -29,14 +29,14 @@ let nodes = [
     {
       host: "127.0.0.1",
       port: 2333,
-      password: "iqcodeiq",
+      password: "004@iq200",
     }
 ]
 
 client.on("ready", async () => {
-  client.music = new lavaone.LavaClient(client, nodes);
+  client.music = new lava-004.LavaClient(client, nodes);
   
-  client.music.Spotify = new lavaone.Spotify(
+  client.music.Spotify = new lava-004.Spotify(
       "Spotify Client ID",
       "Spotify Client Scret"
    );
